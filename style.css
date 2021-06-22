@@ -1,0 +1,42 @@
+.cart, .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+}
+.price, .btn, .count {
+    padding-top: 50px;
+}
+h3, #shop{
+    padding-left: 1080px;
+}
+img{
+    width: 150PX;
+    Height:150PX
+}
+
+.add, .plus, .minus, .del{
+    border: 0px hidden;
+    border-radius: 40px 40px 40px 40px;
+    cursor: pointer;
+}
+.add:focus{
+    color: aliceblue;
+    background-color: red;
+}
+
+#buy {
+background: #3498db;
+border-radius: 40px 40px 40px 40px;
+font-family: Arial;
+color: #ffffff;
+font-size: 18px;
+padding: 10px;
+text-decoration: none;
+margin-left: 18px;
+}
+  
+#buy:hover {
+background-color: rgb(104, 115, 148);
+cursor: pointer;
+}
